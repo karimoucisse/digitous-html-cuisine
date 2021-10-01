@@ -1,3 +1,15 @@
 body {
     margin: 0;
 }
+a{
+    color: #fff;
+}
+a:hover{
+    color:grey;
+}
+i{
+    font-size: 34px;
+}
+i:hover{
+    transform: scale(1.2);
+}
