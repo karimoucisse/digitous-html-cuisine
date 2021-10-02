@@ -1,5 +1,18 @@
 body {
     margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+.courgette{
+    font-family: 'Courgette', cursive;
+}
+h2 , h3{
+    font-family: 'Courgette', cursive;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 20px;
 }
 a{
     color: #fff;
@@ -11,5 +24,5 @@ i{
     font-size: 34px;
 }
 i:hover{
-    transform: scale(1.2);
+    /*transform: scale(1.2);*/
 }
