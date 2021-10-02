@@ -18,15 +18,29 @@
                 <div class="col d-flex justify-content-between px-5 ">
                     <a class="navbar-brand " href="#">Cui'zine</a>
                     <div class="d-flex">
-                        <a href="#" class="d-lg-none"><i class="fas fa-bars border border-secondary px-3 py-1"></i></a>
+                        
+                        <div class="dropdown">
+                            
+                            <a href="#" class="d-lg-none nav-link d-lg-block" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-bars border border-secondary px-3 py-1"></i>
+                            </a>
+                          
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item text-dark fs-6" href="#">Accueil</a></li>
+                                <li><a class="dropdown-item text-dark fs-6" href="#">Equipe</a></li>
+                                <li><a class="dropdown-item text-dark fs-6" href="#">Blog</a></li>
+                                <li><a class="dropdown-item text-dark fs-6" href="#">Contact</a></li>
+                            </ul>
+                        </div>
+
                         <li class="nav-item active d-none d-lg-block">
-                            <a class="nav-link" href="index.html">Accueil</a>
+                            <a class="nav-link" href="#">Accueil</a>
                         </li>
                         <li class="nav-item d-none d-lg-inline">
                             <a class="nav-link" href="#">Equipe</a>
                         </li>
                         <li class="nav-item d-none d-lg-inline">
-                            <a class="nav-link" href="index.html">Blog</a>
+                            <a class="nav-link" href="#">Blog</a>
                         </li>
                         <li class="nav-item d-none d-lg-inline">
                             <a class="nav-link" href="#">Contact</a>
@@ -44,15 +58,15 @@
                 </div>
             </div>
         </div> 
-        <div class="container mb-5">
+        <div class="container mb-5 container-lg-fluid">
             <div class="row">
                 <h2 class="text-center mb-5" >Derniers articles</h2>
             </div>
             <div class="row d-lg-flex">
                 <div class="col col-lg-9 me-lg-3">
                     <div class="col-12 mb-4 d-md-flex">
-                        <img src="./img/articles/suzette/suzette-small.jpg" alt="image suzette" class="img-fluid mb-sm-3 col-md-5 me-md-4 col-lg-3">
-                        <div class="col-lg-8">
+                        <img src="./img/articles/suzette/suzette-small.jpg" alt="image suzette" class="img-fluid mb-sm-3 col-md-5 me-md-4 col-lg-2">
+                        <div class="col-lg-10">
                             <h2 class="mb-sm-3">Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h2>
                             <p class="">La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris 
                                 dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées au froment 
@@ -60,9 +74,9 @@
                     </div>
                         
                     </div>
-                    <div class="col-12 mb-4 d-md-flex">
-                        <img src="./img/articles/metro/metro-small.jpg" alt="image metro" class="img-fluid mb-sm-3 col-md-5 me-md-4 col-lg-3" >
-                        <div class="col-lg-8">
+                    <div class="col-12 mb-4 d-md-flex ">
+                        <img src="./img/articles/metro/metro-small.jpg" alt="image metro" class="img-fluid mb-sm-3 col-md-5 me-md-4 col-lg-2" >
+                        <div class="col-lg-10">
                             <h2 class="mb-sm-3">Le Métro dessert</h2>
                             <p>Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont décidé 
                                 de réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir 
@@ -72,15 +86,15 @@
                         
                     </div>
                     <div class="col-12 d-md-flex">
-                        <img src="./img/articles/vitaly/vitaly-small.jpg" alt="image vitaly" class="img-fluid mb-sm-3 col-md-5 me-md-4 col-lg-3">
-                        <div class="col-lg-8">
+                        <img src="./img/articles/vitaly/vitaly-small.jpg" alt="image vitaly" class="img-fluid mb-sm-3 col-md-5 me-md-4 col-lg-2">
+                        <div class="col-lg-10">
                             <h2 class="mb-sm-3">Vitaly, le végan italien</h2>
                             <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de l'Italie à 
                                 portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.</p>
                         </div>
                     </div>
                 </div>
-                <div class="d-none col d-lg-block">
+                <div class="d-none col-lg-2 d-lg-block">
                     <h3 class="mb-2">Recherche</h3>
                     <div class="col">
                         <input type="email" class="text col-12 mb-2"  placeholder="Recherche...">
@@ -136,6 +150,6 @@
                 </div>
             </div>
         </div>
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     </body>
 </html>

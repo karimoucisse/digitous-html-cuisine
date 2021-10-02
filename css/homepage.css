@@ -15,7 +15,7 @@
 }
 .home_container .home_row {
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 .home_container .navbar a {
     color: #fff;
@@ -26,3 +26,8 @@
     background-color: transparent;
     color: gray;
 }
+/*.dropdown ul {
+    position: static;
+    background-color: red;
+    z-index: 5;
+}*/
